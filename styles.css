@@ -4,6 +4,7 @@ html, body {
 .jumbotron {
   min-height: 100%;
   margin-bottom: 0;
-  background-image: url(http://i.imgur.com/cy2cpA8.jpg);
+  background-color: #333;
+  /* background-image: url(http://i.imgur.com/cy2cpA8.jpg); */
   background-size: cover;
 }
