@@ -1,2 +1,2 @@
 # Official Science Club Official Website
-Our website
+[Wissahickon Science Club](http://officialscienceclub.github.io/)

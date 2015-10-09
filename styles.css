@@ -1,9 +1,52 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url(proxima.woff2) format('woff2'),
+       url(proxima.woff) format('woff'),
+       url(proxima.ttf) format('truetype');
+}
 html, body {
   height: 100%;
+  width: 100%;
+  font-family: 'Proxima Nova';
 }
 .jumbotron {
   min-height: 100%;
   margin-bottom: 0;
-  background-image: url(http://i.imgur.com/cy2cpA8.jpg);
+  padding-top: 60px;
+  color: #eee;
+  background: #2196f3;
+  /*
+  background: linear-gradient(
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+              ),
+              url(http://i.imgur.com/LQA4QhN.jpg);
   background-size: cover;
+  */
+}
+
+.form-control {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-transparent {
+  border: 2px solid #eee;
+  background: transparent;
+}
+
+.btn-transparent:hover {
+  background: #eee;
+}
+
+.btn-transparent:focus, .btn-transparent:active {
+  color: #eee;
+  outline: none;
 }
